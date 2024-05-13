@@ -33,7 +33,7 @@ void* consumer(void* args){
 				continue;
 			}
 			if(j)
-				sprintf(password, "%s,%s", password, random_word);
+				sprintf(password, "%s%s", password, random_word);
 			else
 				strcpy(password, random_word);
 		}
