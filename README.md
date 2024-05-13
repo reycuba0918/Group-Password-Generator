@@ -1,5 +1,5 @@
 # Group Password Generator
-This project is a command-line application that employs multithreading to populate a hash-set with words from a specified .txt file, referred to as a Dictionary. Subsequently, it leverages multithreading to access this hash set and generate a series of random passwords.
+This project is a command-line application that employs multithreading to populate a hash set with words from a specified .txt file, referred to as a Dictionary. Subsequently, it leverages multithreading to access the previously mentioned hash set and generate a series of random passwords.
 
 ## Required Flags
 * -p n: specifies the number(n) of threads that will be used to grab words from the provided file and put them in the hash set.
