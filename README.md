@@ -12,6 +12,28 @@ This project is a command-line application that employs multithreading to popula
 
 * -l l: specifies the number of words per password.
 
+## Example
+Shell command(Windows):
+```
+.\passgenerator.exe -p 5 -c 5 -f "Data/dict.txt" -n 10 -l 5
+```
+Shell command(Unix):
+```
+./passgenerator -p 5 -c 5 -f "Data/dict.txt" -n 10 -l 5
+```
+Output:
+```
+abactinalconstituentatriplicifoliumedentulatecorporis
+choriomeningitisbronchoscopeexpatiateelegiacdisorient
+acceptablyambitiousnessbunionappositionarmillaria
+asafoetidaepisomedeviltryco-workerbloomsbury
+creasedroopeaterycocuswoodblocked
+cacklycolubrisconundrumcoxcrazyweed
+armisticeddschalumnaebrown-greyagone
+ethnicallydilly-dallyflare-upfeathertopcommunise
+fourhandedceruminousankletsabiogenesisabsconder
+apomicticalchefbarcarolleequisetalesavitaminosis
+```
 
 ## What happens if the project needs to be recompiled?
 This project provides the command `passgenerator` for Unix development environments and the command `passgenerator.exe` for Windows development environments. However, if there is a need to recompile, the flags "-I.", "-g", "-w", "-lm", and "-pthread" must be used.
