@@ -12,6 +12,7 @@ static int hash(char *key, int bins) {
   return hashval % bins;
 }
 static void rehash(hashset*);
+int search(hashset, char*);
 int insert(hashset *h, char *val) {
 	if(search(*h, val))
 		return 0;
