@@ -40,7 +40,7 @@ apomicticalchefbarcarolleequisetalesavitaminosis
 
 ## Need to recompile?
 
-This project provides the command `passgenerator` for Unix development environments and the command `passgenerator.exe` for Windows development environments. However, if there is a need to recompile, the flags "-I.", "-g", "-w", "-lm", and "-pthread" must be used.
+This project provides the command `passgenerator` for Unix development environments and the command `passgenerator.exe` for Windows development environments. However, if there is a need to recompile, the flags "-lm" and "-pthread" must be used.
 * Note that this program provides files to recompile that already have these flags.
   * If the coding environment is Unix-based, you can use the `makefile`.
   * If the coding environment is Windows-based, you can use `.vscode\tasks.json` in combination with VScode to recompile.
